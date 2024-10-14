@@ -7,9 +7,13 @@
     font-style: normal;
 }
 
-.bannar__section {
+.section {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 32px auto;
+    border: 8px solid red;
+}
+
+.bannar__section {
     background: url("../assets/Hero-bg.png") no-repeat left top;
     background-size: cover;
 }
@@ -58,6 +62,278 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
-    /* text-align: center; */
     margin: 32px 0px;
+}
+
+
+
+
+
+.target__section {
+    margin: 32px auto;
+}
+
+.target__content {
+    text-align: center;
+    padding: 50px 0;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 32px 0;
+    margin: 0 auto;
+}
+
+.target__content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.target__content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding: 18px 64px;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card {
+    width: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 40px;
+    gap: 24;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card__container_content {
+    margin: 24px 0;
+}
+
+.card img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.card h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0;
+}
+
+.card p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.html-card {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-card {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.support-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+    padding: 64px 48px 64px 48px;
+}
+
+.support-content {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.support-content h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-content p {
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-form input[type="text"] {
+    width: 500px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+
+}
+
+.support-form button {
+    color: rgb(13, 19, 33);
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 17px 20px 17px 20px;
+
+    text-align: center;
+
+
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.support-form button:hover {
+    background-color: #444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer__section h4 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.footer__section .icon ul {
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__section .icon li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 28px;
 }
